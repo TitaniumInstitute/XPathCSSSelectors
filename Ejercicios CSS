@@ -1,0 +1,53 @@
+URL: https://www.signupgenius.com/index.cfm?go=w.Welcome
+Tema CSS Selectors - Básicos
+Ejercicio1: Encontrar objetos utilizando CSS Selectors Básicos
+Forma básica ID
+Selector: #firstNameId 
+Selector: input#firstNameId
+Selector: input[id=firstNameId]
+
+Ejercicio2: Encontrar objetos usando CSS Selectors con Name
+Selector: input[name=firstname]
+Selector: input[name=lastname]
+
+Ejercicio3: Encontrar objetos usando CSS Selectors con AND
+Selector: input[type=email][name=email]
+Selector: input[type=email][name=email][id=myEmailId]
+
+Ejercicio4: Encontrar objetos usando CSS Selectors con OR
+Selector: input[name=firstname],[name=lastname]
+
+Ejercicio2: Encontrar objetos usando CSS Selectors para la clase y multiclase
+Selector Mulsticlase: .glyphicon.glyphicon-eye-close.form-control-feedback.showPasswordEyeball.adjusted
+Selector usando Tags: span[class='glyphicon glyphicon-eye-close form-control-feedback showPasswordEyeball adjusted']
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+URL: https://www.signupgenius.com/index.cfm?go=w.Welcome
+Tema CSS Selectors - Intermedios
+Ejercicio1: Encontrar objetos utilizando la relación padre>hijo o nth
+Selector: ul.nav.navbar-nav.navbar-left>li:last-of-type>ul>li:nth-child(5)>a
+
+Ejercicio2: nth-child con Elementos en listas de listas, encontrar el octavo elemento dentro de la segunda lista
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(2)>ul>li:nth-child(8)
+
+Ejercicio3: Elementos en listas de listas, encontrar el segundo elemento dentro de la tercera lista
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(3)>ul>li:nth-child(3)
+
+Ejercicio4: Encontrar los elementos pares e impares dentro de una lista
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(3)>ul>li:nth-child(even)
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(3)>ul>li:nth-child(odd)
+
+Ejercicio5: Encontrar elementos utilizando la forma an+b
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(3)>ul>li:nth-child(2n+4)
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(3)>ul>li:nth-child(1n+2)
+Selector: div.col-xs-6.col-sm-3.col-lg-24:nth-child(3)>ul>li:nth-child(3n+5)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+URL: https://www.signupgenius.com/index.cfm?go=w.Welcome
+Tema CSS Selectors - Avanzados
+Ejercicio1: Encontrar objetos dinamicos usando matching patterns
+Selector matching pattern starts: input[name^='login']
+Selector matching pattern ends: input[id$='ter']
+Selector matching pattern contains: input[name*='pass']
