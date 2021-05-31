@@ -1,3 +1,23 @@
+URL: https://www.google.com
+Tema Xpath - Absoluto
+Ejercicio1: Encontrar el xpath absoluto del botón "Iniciar Sesión"
+Xpath: /html/body/div/div/div/div/div/div[2]/a
+
+Ejercicio2: Encontrar el xpath absoluto de la imagen de Google
+Xpath: /html/body/div/div[2]/div/img 
+
+-------------------------------------------------------------------------------
+
+URL: https://www.google.com
+Tema Xpath - Relativo Básico
+Ejercicio1: Encontrar el xpath relativo del botón "Iniciar Sesión"
+Xpath: //a[@class='gb_4 gb_5 gb_ae gb_ce gb_4c']
+
+Ejercicio2: Encontrar el xpath relativo de la imagen de Google
+Xpath: //img[@class='lnXdpd']
+
+-------------------------------------------------------------------------------
+
 URL: http://demo.automationtesting.in/Register.html
 Tema Xpath - Axes
 Ejercicio1: Encontrar los radioButton "Male" y "FeMale"
@@ -27,6 +47,8 @@ Ejercicio7: Encontrar los elementos siblings al lado de los checkboxes
 Xpath: //input[@type='checkbox']//following-sibling::label
 Xpath: //label[@type='checkbox']//preceding-sibling::input
 
+-------------------------------------------------------------------------------
+
 URL: Facebook Crear Cuenta
 Tema Xpath - Contains
 Ejercicio1: Encontrar el Botón "Registrarse"
@@ -41,6 +63,8 @@ Xpath: //*[contains(text(),'Es rápido y fácil')]
 Ejercicio4: Encontrar el link con el texto "Servicios"
 Xpath: //*[contains(text(),'Sevicios')]
 
+-------------------------------------------------------------------------------
+
 URL: http://register.rediff.com/register/register.php?FormName=user_details
 Tema Xpath - Starts-with
 Ejercicio1: Encontrar el botón "Check availability"
@@ -52,6 +76,8 @@ Xpath: //*[starts-with(@name,'name')]
 Ejercicio3: Encontrar el campo de texto "Choose a Rediffmail ID"
 Xpath: //*[starts-with(@name,'login')]
 
+-------------------------------------------------------------------------------
+
 URL: reddit.com/reddits/login/
 Tema Xpath - AND & OR
 Ejercicio1: Encontrar el campo de texto de usuario y contraseña
@@ -60,4 +86,3 @@ Xpath: //input[@id='user_reg' or @id='passwd_reg']
 Ejercicio2: Utilizar el operador AND para encontrar objetos
 Xpath: //input[@class='c-form-control' and  @id='user_login']
 Xpath: //input[@class='c-form-control'][@id='user_login']
-
